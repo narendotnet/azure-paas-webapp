@@ -80,7 +80,8 @@ export class Product extends Component
 
         return (
             <div>
-                <h1>Get Products Page</h1>
+                <h1>Big Purple Bank</h1>
+                <h2>Get Products Page</h2>
                 <p>Here you can see all products</p>
                 {content}
             </div>
