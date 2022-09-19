@@ -54,7 +54,7 @@ export class Product extends Component
                             <td>{product.description}</td>
                             <td>{product.brand}</td>
                             <td>{product.brandName}</td>
-                            <td>{product.isTailored}</td>
+                            <td>{String(product.isTailored)}</td>
                             <td>{product.additionalInformation.overviewUri}</td>
                         </tr>
                         ))
