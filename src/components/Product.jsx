@@ -66,7 +66,13 @@ export class Product extends Component
     }
 
     render(){
-
+        const headerStyle = {
+            width: '100%',
+            padding: '1%',
+            backgroundColor: "grey",
+            color: 'black',
+            textAlign: 'center'
+        }
         let content = this.state.loading ? (
             <p>
                 <em>Loading...</em>
@@ -81,7 +87,9 @@ export class Product extends Component
 
         return (
             <div>
+                <div style={headerStyle}>
                 <h1>Big Purple Bank</h1>
+                </div>
                 <h2>Get Products Page</h2>
                 <p>Here you can see all products</p>
                 {content}
